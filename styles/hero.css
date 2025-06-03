@@ -1,10 +1,6 @@
 #hero {
   text-align: center;
 
-  & img [src*="music"] {
-    width: 12.875rem;
-  }
-
   & h1 {
     margin-top: 1rem;
   }
@@ -21,14 +17,15 @@
   }
 }
 
+#hero img[src*="music"] {
+  width: 12.875rem !important;
+}
+
 @media (width >= 80em) {
   #hero {
     background: url("../assets/images/bg-hero-desktop.svg") no-repeat bottom
       center/contain;
     padding-bottom: 15rem;
-    & img [src*="music"] {
-      width: 25.75rem;
-    }
 
     & h1 {
       margin-top: 1.5rem;
@@ -42,5 +39,8 @@
     .buttons {
       margin-top: 3rem;
     }
+  }
+  #hero img[src*="music"] {
+    width: 25.75rem !important;
   }
 }
