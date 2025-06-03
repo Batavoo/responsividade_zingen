@@ -8,3 +8,4 @@
 @import "./about.css";
 @import "./cards.css";
 @import url(features.css) (width >= 80em);
+@import url(pricing.css);
