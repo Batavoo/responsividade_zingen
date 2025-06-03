@@ -6,7 +6,6 @@
       width: calc(100% - var(--px-lg) * 2)
   */
   margin-inline: auto;
-  /* border: solid violet; */
 }
 
 .py-base {
